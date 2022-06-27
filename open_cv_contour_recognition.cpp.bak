@@ -45,7 +45,7 @@ int main()
         namedWindow("capture", 1);
         int iSliderValue1 = 80;
         //Create a slider to set the minimum length of the segment of the workpiece contour
-        createTrackbar("Мин.длина", "capture", &iSliderValue1, 400);
+        createTrackbar("Min.length", "capture", &iSliderValue1, 400);
 
         //Creating a slider to change the maximum distance between segments of recognition contours
         int iSliderValue2 = 1;

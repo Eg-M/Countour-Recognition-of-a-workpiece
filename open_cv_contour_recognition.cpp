@@ -34,10 +34,10 @@ int main()
 
         VideoCapture cap(0); // Open standard camera
 
-        // If camera is not found
+        // If camera is not found throw a message
         if (!cap.isOpened())
         {
-            cout << "Камера не найдена!" << endl;
+            cout << "Camera is not found!" << endl;
             Sleep(1500);
             return -1;
         }
