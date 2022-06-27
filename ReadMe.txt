@@ -1,30 +1,29 @@
-﻿========================================================================
-    КОНСОЛЬНОЕ ПРИЛОЖЕНИЕ. Обзор проекта open_cv_contour_recognition
+========================================================================
+CONSOLE APPLICATION. Overview of the open_cv_contour_recognition project
 ========================================================================
 
-Это приложение open_cv_contour_recognition создано автоматически с помощью мастера приложений.
 
-В этом файле представлена сводка содержимого всех файлов, входящих в состав приложения open_cv_contour_recognition.
+This file contains a summary of the contents of all files included in the open_cv_contour_recognition application.
 
 
 open_cv_contour_recognition.vcxproj
-    Это основной файл проекта VC++, создаваемый с помощью мастера приложений. Он содержит данные о версии языка Visual C++, использованной для создания файла, а также сведения о платформах, конфигурациях и функциях проекта, выбранных с помощью мастера приложений.
+This is the main VC++ project file created using the Application Wizard. It contains information about the Visual C++ language version used to create the file, as well as information about the platforms, configurations and functions of the project selected using the Application Wizard.
 
 open_cv_contour_recognition.vcxproj.filters
-    Это файл фильтров для проектов VC++, созданный с помощью мастера приложений. Он содержит сведения о сопоставлениях между файлами в вашем проекте и фильтрами. Эти сопоставления используются в среде IDE для группировки файлов с одинаковыми расширениями в одном узле (например CPP-файлы сопоставляются с фильтром "Исходные файлы").
+This is a filter file for VC++ projects created using the Application Wizard. It contains information about the mappings between files in your project and filters. These mappings are used in the IDE to group files with the same extensions in one node (for example, CPP files are mapped to the "Source Files" filter).
 
 open_cv_contour_recognition.cpp
-    Это основной исходный файл приложения.
+This is the main source file of the application.
 
 /////////////////////////////////////////////////////////////////////////////
-Другие стандартные файлы:
+Other standard files:
 
 StdAfx.h, StdAfx.cpp
-    Эти файлы используются для построения файла предкомпилированного заголовка (PCH) с именем open_cv_contour_recognition.pch и файла предкомпилированных типов с именем StdAfx.obj.
+These files are used to build a precompiled header (PCH) file named open_cv_contour_recognition.pch and a precompiled type file named StdAfx.obj.
 
 /////////////////////////////////////////////////////////////////////////////
-Прочие примечания.
+Other notes.
 
-С помощью комментариев «TODO:» в мастере приложений обозначаются фрагменты исходного кода, которые необходимо дополнить или изменить.
+Using the comments "TODO:" in the application wizard, fragments of the source code that need to be supplemented or changed are indicated.
 
 /////////////////////////////////////////////////////////////////////////////
