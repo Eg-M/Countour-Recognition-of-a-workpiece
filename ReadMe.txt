@@ -1,29 +1,28 @@
-========================================================================
-CONSOLE APPLICATION. Overview of the open_cv_contour_recognition project
-========================================================================
+# Workpiece Positioning System for Coordinate Machines
 
+## Project Description
+This program assists operators of coordinate machines by determining the optimal positioning (coordinates and angle of rotation) of a workpiece. It streamlines the setup process for tools like lasers or milling heads on coordinate machines.
 
-This file contains a summary of the contents of all files included in the open_cv_contour_recognition application.
+## Key Features
+- Captures and processes live video feed from a standard camera.
+- Implements Hough Transform for line detection.
+- Calculates workpiece's location and rotation angle.
+- Provides real-time visual feedback via GUI.
+- Saves the captured image and workpiece data for record-keeping.
 
+## Technologies Used
+- C++ with OpenCV library for image processing.
+- Standard Template Library (STL) for handling data structures.
 
-open_cv_contour_recognition.vcxproj
-This is the main VC++ project file created using the Application Wizard. It contains information about the Visual C++ language version used to create the file, as well as information about the platforms, configurations and functions of the project selected using the Application Wizard.
+## How to Run
+- Ensure proper camera connection and OpenCV setup.
+- Compile and run the program in an environment supporting C++ and OpenCV.
+- Interact with the program through the graphical interface for live updates.
 
-open_cv_contour_recognition.vcxproj.filters
-This is a filter file for VC++ projects created using the Application Wizard. It contains information about the mappings between files in your project and filters. These mappings are used in the IDE to group files with the same extensions in one node (for example, CPP files are mapped to the "Source Files" filter).
+## Output
+- The program outputs the coordinates and angle of the workpiece.
+- Saves the workpiece data to `data.txt` and the processed image to `capture.jpg`.
 
-open_cv_contour_recognition.cpp
-This is the main source file of the application.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-These files are used to build a precompiled header (PCH) file named open_cv_contour_recognition.pch and a precompiled type file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes.
-
-Using the comments "TODO:" in the application wizard, fragments of the source code that need to be supplemented or changed are indicated.
-
-/////////////////////////////////////////////////////////////////////////////
+## Potential Enhancements
+- Integration with automated coordinate machine systems for direct control.
+- Implement more advanced image processing algorithms for higher precision.
